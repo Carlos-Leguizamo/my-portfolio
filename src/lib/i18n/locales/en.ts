@@ -85,22 +85,22 @@ export const en: Dictionary = {
     title: "Professional background",
     items: {
       "exp-1": {
-        role: "Full Stack Developer",
-        period: "2024 — Present",
+        role: "Junior Developer L1",
+        period: "March 2026 — Present",
         description:
-          "End-to-end feature development for SaaS products, from API design to final UI. Performance optimization and adoption of the Next.js App Router.",
+          "I work as a Junior Software Developer (L1), participating in the development, maintenance, and stabilization of enterprise applications in the healthcare sector. I contribute to the implementation of new features, the resolution of issues, and the optimization of systems, ensuring operational continuity and software quality. I work with technologies such as .NET, C#, Next.js, React, DevExpress, Razor, and SQL Server, as well as Microsoft Azure services, including App Service, Azure Functions, and Blob Storage. I also participate in continuous integration and continuous deployment (CI/CD) processes, collaborating with the team to deliver scalable, secure solutions aligned with business needs.",
       },
       "exp-2": {
-        role: "Frontend Developer",
+        role: "Full Stack Developer",
         period: "2022 — 2024",
         description:
-          "Built reusable interfaces with React and TypeScript, working closely with design to keep visual consistency across the platform.",
+          "I worked as a Full Stack Developer, developing and maintaining software for managing complaints, claims, and requests (PQRS) and internal administrative procedures. I participated in the entire development cycle, implementing functionalities with Vue.js on the frontend and developing APIs with Java and Spring Boot on the backend. I also managed data persistence with PostgreSQL, contributing to the system's stability, maintenance, and evolution by developing new features, optimizing processes, and resolving issues, all while working within agile methodologies.",
       },
       "exp-3": {
-        role: "Web Developer",
-        period: "2021 — 2022",
+        role: "Backend Developer",
+        period: "July 2024 — November 2024",
         description:
-          "Delivered custom sites and landing pages for small businesses, covering everything from layout to deployment and maintenance.",
+          "I participated in the migration of the backend from Laravel to the Django REST Framework, ensuring compatibility with the frontend by maintaining the request and response structure across all endpoints. I reorganized the backend based on clean architecture principles, optimized queries using Django's ORM, implemented authentication and authorization using JWT, and integrated email and notification services to improve the system's security, scalability, and functionality.",
       },
     },
   },

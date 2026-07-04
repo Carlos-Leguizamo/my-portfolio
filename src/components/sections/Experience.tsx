@@ -28,7 +28,7 @@ export function Experience() {
                     </h3>
                     <span className="text-sm text-foreground/60">{copy.period}</span>
                   </div>
-                  <p className="mt-3 text-sm leading-relaxed text-foreground/70">
+                  <p className="mt-3 text-justify text-sm leading-relaxed text-foreground/70">
                     {copy.description}
                   </p>
                 </div>

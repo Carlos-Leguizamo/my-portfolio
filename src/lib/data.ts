@@ -220,7 +220,7 @@ export type ExperienceItem = {
 };
 
 export const experience: ExperienceItem[] = [
-  { id: "exp-1", company: "Nova Studio" },
-  { id: "exp-2", company: "Bright Labs" },
-  { id: "exp-3", company: "Freelance" },
+  { id: "exp-1", company: "IndiGO Tech" },
+  { id: "exp-2", company: "FundaSoftMiss " },
+  { id: "exp-3", company: "FundaSoftMiss " },
 ];
