@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+import Image from "next/image";
 import { aboutHighlights, siteConfig } from "@/lib/data";
 import { useLocale } from "@/components/LocaleProvider";
 import { Reveal } from "@/components/motion/Reveal";
@@ -7,6 +9,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function About() {
   const { t } = useLocale();
+  const [photoFailed, setPhotoFailed] = useState(false);
+  const showPhoto = Boolean(siteConfig.photoUrl) && !photoFailed;
 
   return (
     <section id="sobre-mi" className="border-t border-border/60 py-24">
@@ -17,8 +21,22 @@ export function About() {
 
         <div className="grid grid-cols-1 gap-12 md:grid-cols-[auto_1fr] md:items-start">
           <Reveal delay={0.1}>
-            <div className="flex h-32 w-32 items-center justify-center rounded-2xl border border-border bg-gradient-to-br from-accent/30 via-surface to-transparent text-3xl font-semibold text-accent">
-              {siteConfig.initials}
+            <div className="relative h-32 w-32 overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-accent/30 via-surface to-transparent shadow-lg shadow-accent/10">
+              {showPhoto ? (
+                <Image
+                  src={siteConfig.photoUrl}
+                  alt={siteConfig.name}
+                  fill
+                  sizes="128px"
+                  preload
+                  className="object-cover"
+                  onError={() => setPhotoFailed(true)}
+                />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center text-3xl font-semibold text-accent">
+                  {siteConfig.initials}
+                </div>
+              )}
             </div>
           </Reveal>
 

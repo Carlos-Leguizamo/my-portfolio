@@ -41,6 +41,7 @@ export type AnyIcon = ComponentType<IconProps>;
 export const siteConfig = {
   name: "Carlos Leguizamo",
   initials: "CL",
+  photoUrl: "/images/my-photo.jpg",
   available: true,
   email: "tato2005leguizamo@gmail.com",
   location: "Argentina",
