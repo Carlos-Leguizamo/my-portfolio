@@ -70,7 +70,7 @@ export type Highlight = {
 };
 
 export const aboutHighlights: Highlight[] = [
-  { key: "experience", value: "3+" },
+  { key: "experience", value: "2+" },
   { key: "projects", value: "20+" },
   { key: "technologies", value: "15+" },
 ];

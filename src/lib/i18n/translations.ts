@@ -121,8 +121,7 @@ export const translations: Record<Locale, Dictionary> = {
       eyebrow: "Sobre mí",
       title: "Un poco sobre cómo trabajo",
       paragraphs: [
-        "Soy desarrollador full stack enfocado en crear productos web que se sientan rápidos y cuidados en cada detalle. Disfruto el momento en que una interfaz compleja se vuelve simple de usar.",
-        "Trabajo tanto en el frontend como en el backend: desde animaciones e interacciones en React hasta APIs, bases de datos y despliegue. Me interesa el código mantenible tanto como el resultado visual.",
+        "Desarrollador Full Stack especializado en el desarrollo de soluciones web de alto rendimiento, con experiencia en tecnologías Microsoft y frameworks modernos. He participado en proyectos utilizando .NET, C#, SQL Server, Azure DevOps, Next.js, Laravel, Django, React y Vue, contribuyendo al diseño, desarrollo e implementación de aplicaciones escalables, seguras y mantenibles. Me apasiona construir software de calidad, optimizar procesos y mantenerme en constante aprendizaje para afrontar nuevos desafíos tecnológicos.",
       ],
       highlights: {
         experience: "Años de experiencia",
@@ -255,8 +254,7 @@ export const translations: Record<Locale, Dictionary> = {
       eyebrow: "About",
       title: "A bit about how I work",
       paragraphs: [
-        "I'm a full stack developer focused on building web products that feel fast and carefully crafted in every detail. I enjoy the moment a complex interface becomes simple to use.",
-        "I work across the frontend and backend: from animations and interactions in React to APIs, databases, and deployment. I care as much about maintainable code as about the visual result.",
+        "Full Stack Developer specializing in high-performance web solutions, with experience in Microsoft technologies and modern frameworks. I have participated in projects using .NET, C#, SQL Server, Azure DevOps, Next.js, Laravel, Django, React, and Vue, contributing to the design, development, and implementation of scalable, secure, and maintainable applications. I am passionate about building quality software, optimizing processes, and continuously learning to meet new technological challenges.",
       ],
       highlights: {
         experience: "Years of experience",
