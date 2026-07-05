@@ -17,8 +17,8 @@ export const es: Dictionary = {
     greeting: "Hola, soy",
     role: "Desarrollador Full Stack",
     tagline:
-      "Construyo interfaces rápidas y prolijas, y las conecto con backends sólidos.",
-    available: "Disponible para proyectos",
+      "Desarrollo aplicaciones web modernas, escalables y de alto rendimiento, combinando experiencias de usuario intuitivas con arquitecturas backend robustas y seguras.",
+    available: "Remoto | Híbrido | Presencial",
     ctaProjects: "Ver proyectos",
     ctaContact: "Contactar",
     scrollHint: "Ir a la sección Sobre mí",

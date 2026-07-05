@@ -17,8 +17,8 @@ export const en: Dictionary = {
     greeting: "Hi, I'm",
     role: "Full Stack Developer",
     tagline:
-      "I build fast, polished interfaces and connect them to solid backends.",
-    available: "Available for projects",
+      "I build modern, scalable web applications, combining intuitive user experiences with robust backend architectures.",
+    available: "Remote | Hybrid | On-site",
     ctaProjects: "View projects",
     ctaContact: "Contact me",
     scrollHint: "Go to the About section",

@@ -41,7 +41,7 @@ export function Hero() {
             {siteConfig.name}
           </h1>
           <p className="mt-3 text-xl font-medium text-accent">{t.hero.role}</p>
-          <p className="mt-5 max-w-md text-base leading-relaxed text-foreground/70">
+          <p className="mt-5 max-w-md text-base leading-relaxed text-foreground/70 text-justify">
             {t.hero.tagline}
           </p>
 
