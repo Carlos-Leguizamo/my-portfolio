@@ -21,6 +21,7 @@ export function Footer() {
               <li key={link.label}>
                 <a
                   href={link.href}
+                  target={link.target}
                   aria-label={link.label}
                   className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border transition-colors hover:border-accent/60 hover:text-accent"
                 >

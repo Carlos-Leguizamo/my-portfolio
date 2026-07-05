@@ -30,7 +30,7 @@ import {
   Wrench,
 } from "lucide-react";
 import type { IconProps } from "@/components/ui/icons";
-import { GithubIcon, LinkedinIcon, XIcon } from "@/components/ui/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/ui/icons";
 
 export type AnyIcon = ComponentType<IconProps>;
 
@@ -44,19 +44,19 @@ export const siteConfig = {
   photoUrl: "/images/my-photo.jpg",
   available: true,
   email: "tato2005leguizamo@gmail.com",
-  location: "Argentina",
+  location: "Neiva, Huila, Colombia",
 };
 
 export type SocialLink = {
   label: string;
   href: string;
+  target?: "_blank" | "_self" | "_parent" | "_top";
   icon: AnyIcon;
 };
 
 export const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "#", icon: GithubIcon },
-  { label: "LinkedIn", href: "#", icon: LinkedinIcon },
-  { label: "Twitter / X", href: "#", icon: XIcon },
+  { label: "GitHub", href: "https://github.com/Carlos-Leguizamo", target: "_blank", icon: GithubIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/carlos-leguizamo/", target: "_blank", icon: LinkedinIcon },
   { label: "Email", href: "mailto:tato2005leguizamo@gmail.com", icon: Mail },
 ];
 
